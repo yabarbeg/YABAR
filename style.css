@@ -1,0 +1,90 @@
+:root {
+    --primary: #1f2937;
+    --accent: #10b981;
+    --light: #f3f4f6;
+    --dark: #111827;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--light);
+    color: var(--dark);
+    line-height: 1.6;
+  }
+  
+  header {
+    background: var(--primary);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ccc;
+  }
+  
+  section {
+    padding: 30px 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: var(--primary);
+    margin-bottom: 15px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services ul li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: #0ea36e;
+  }
+  
+  .note {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
